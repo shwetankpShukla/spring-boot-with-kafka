@@ -1,0 +1,9 @@
+server:
+  port: 9093
+
+spring:
+  application:
+    name: spring-boot-with-kafka
+  kafka:
+    bootstrap-servers:
+      - localhost:9092
